@@ -1,0 +1,41 @@
+# Ignore build artifacts
+build/
+bin/
+lib/
+
+# Ignore compiled executables
+*.exe
+*.out
+*.app
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore Visual Studio files and directories
+.vscode/
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.ipch/
+
+# Ignore Xcode files and directories
+*.xcodeproj/
+*.xcworkspace/
+
+# Ignore CMake build directories
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Makefile
+
+# Ignore generated documentation
+doxygen/
+
+# Ignore user-specific settings files
+*.swp
+*.swo
+*~
